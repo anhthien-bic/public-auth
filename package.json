@@ -1,6 +1,6 @@
 {
   "name": "@next-auth/dynamodb-adapter",
-  "repository": "https://github.com/nextauthjs/next-auth",
+  "repository": "https://github.com/anhthien-bic/public-auth.git",
   "version": "3.0.2",
   "description": "AWS DynamoDB adapter for next-auth.",
   "keywords": [
@@ -21,7 +21,6 @@
       "import": "./index.js"
     }
   },
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -49,8 +48,6 @@
   "devDependencies": {
     "@aws-sdk/client-dynamodb": "^3.36.1",
     "@aws-sdk/lib-dynamodb": "^3.36.1",
-    "@next-auth/adapter-test": "workspace:*",
-    "@next-auth/tsconfig": "workspace:*",
     "@shelf/jest-dynamodb": "^2.1.0",
     "@types/uuid": "^9.0.0",
     "jest": "^27.4.3",
